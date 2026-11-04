@@ -1,0 +1,20 @@
+<!doctype html><html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Kfz Lerntrainer</title><link rel="manifest" href="manifest.webmanifest"><meta name="theme-color" content="#1d4ed8">
+<link rel="apple-touch-icon" href="icon-192.png"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Kfz Lerntrainer">
+<style>
+:root{--bg:#f6f7f9;--card:#fff;--tx:#111;--mu:#666;--bd:#ddd;--ac:#1d4ed8;--ok:#15803d;--okb:#dcfce7;--no:#b91c1c;--nob:#fee2e2}
+@media(prefers-color-scheme:dark){:root{--bg:#111318;--card:#1b1e25;--tx:#eee;--mu:#9aa;--bd:#333;--ac:#60a5fa;--ok:#4ade80;--okb:#14321f;--no:#f87171;--nob:#3a1717}}
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,sans-serif;background:var(--bg);color:var(--tx);line-height:1.45}
+header{background:var(--ac);color:#fff;padding:14px 16px;padding-top:calc(14px + env(safe-area-inset-top))}header h1{margin:0;font-size:1.2rem}
+main{max-width:760px;margin:auto;padding:12px}.card{background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:14px;margin-bottom:12px}
+h2{font-size:1.1rem;margin:0 0 8px}h3{font-size:1rem;margin:14px 0 6px}.row{display:flex;flex-wrap:wrap;gap:6px}
+button{font:inherit;border:1px solid var(--bd);background:var(--card);color:var(--tx);border-radius:8px;padding:8px 12px;cursor:pointer}
+button.on,button.pri{background:var(--ac);color:#fff;border-color:var(--ac)}button:disabled{opacity:.45}
+.opt{display:block;width:100%;text-align:left;margin:6px 0;padding:12px}.opt.ok{background:var(--okb);border-color:var(--ok)}.opt.no{background:var(--nob);border-color:var(--no)}
+.fb{border:1px solid var(--bd);border-radius:8px;padding:10px;margin-top:8px}.mu{color:var(--mu);font-size:.85rem}
+table{width:100%;border-collapse:collapse}td{border-top:1px solid var(--bd);padding:6px 4px;vertical-align:top}td:first-child{font-weight:600;width:40%}
+.bar{background:var(--bd);border-radius:6px;height:10px;overflow:hidden}.bar>i{display:block;height:100%;background:var(--ac)}
+.big{display:flex;flex-direction:column;gap:6px;width:100%;text-align:left;padding:18px;margin:10px 0;border-radius:12px;border:2px solid var(--ac)}.big .bt{font-size:1.25rem;font-weight:700}.big .bar{display:block}.stats{display:flex;gap:16px;flex-wrap:wrap;margin:10px 0}.stats b{font-size:1.2rem;display:block}
+</style></head><body><header><h1>Kfz Lerntrainer</h1><div class="mu" style="color:#dbeafe">Zwischen- und Abschlussprüfung Kfz-Mechatroniker (Pkw)</div></header>
+<div style="max-width:760px;margin:12px auto 0;padding:0 12px"><a href="Kfz-Lerntrainer.apk" download type="application/vnd.android.package-archive" style="display:block;text-align:center;padding:12px;border-radius:10px;background:#15803d;color:#fff;text-decoration:none;font-weight:600">Android-APK herunterladen</a><p style="font-size:.8rem;color:#888;text-align:center">iPhone: in Safari „Teilen“ → „Zum Home-Bildschirm“.</p></div><main id="app"></main><script src="data.js"></script><script src="data2.js"></script><script src="app.js"></script>
+<script>if('serviceWorker' in navigator)navigator.serviceWorker.register('sw.js')</script></body></html>
